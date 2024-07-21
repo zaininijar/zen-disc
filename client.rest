@@ -1,0 +1,12 @@
+### GET [/posts] // all posts
+GET http://127.0.0.1:8080/posts
+
+### POST [/posts] // create a new post
+POST http://127.0.0.1:8080/posts
+Content-Type: application/json
+
+{
+    "title": "Hello World",
+    "body": "Lorem Ipsum Dolor Sit amet",
+    "published": true
+}
