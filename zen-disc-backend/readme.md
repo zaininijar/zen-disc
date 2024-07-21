@@ -22,3 +22,9 @@ diesel = { version = "1.4", features = ["postgres"] }
 ```bash
 createdb db_zen_disc
 ```
+
+#### run
+
+```bash
+cargo watch -x 'run'
+```
